@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamsy | Portfolio</title>
     <link href="../dist/output.css" rel="stylesheet" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="bg-gradient-to-r from-slate-900 to-slate-700">
     <!-- Header Start -->
@@ -17,7 +20,7 @@
             <a
               href="#home"
               class="font-bold text-2xl text-primary block py-6 m lg:text-3xl"
-              >SyyCode
+              >Syy<span class="text-secondary">Code</span>
               <!-- <img src="/img/star.svg" alt="star" class="w-20 h-20" /> -->
             </a>
           </div>
@@ -51,7 +54,7 @@
                     ><img
                       src="../img/home.png"
                       alt="Home"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Home</a
                   >
                 </li>
@@ -62,7 +65,7 @@
                     ><img
                       src="../img/about me.png"
                       alt="About"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />About</a
                   >
                 </li>
@@ -73,7 +76,7 @@
                     ><img
                       src="../img/projects.png"
                       alt="Projects"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Projects</a
                   >
                 </li>
@@ -84,7 +87,7 @@
                     ><img
                       src="../img/resume.png"
                       alt="Resume"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Resume</a
                   >
                 </li>
@@ -95,7 +98,7 @@
                     ><img
                       src="../img/blogs.png"
                       alt="Blogs"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Blogs</a
                   >
                 </li>
@@ -106,7 +109,7 @@
                     ><img
                       src="../img/contact.png"
                       alt="Contact"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Contact</a
                   >
                 </li>
@@ -125,7 +128,11 @@
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap lg:items-center">
             <!-- Left Content -->
-            <div class="w-full lg:w-1/2 px-4 mb-10">
+            <div
+              class="w-full lg:w-1/2 px-4 mb-10"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <h2 class="text-primary text-4xl mb-10 font-bold text-center">
                 About <span class="text-secondary">Me</span>
               </h2>
@@ -164,7 +171,12 @@
             </div>
 
             <!-- Right Content -->
-            <div class="w-full lg:w-1/2 px-4">
+            <div
+              class="w-full lg:w-1/2 px-4"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div class="mt-5 sm:mt-1 lg:mb-32 lg:mt-20">
                 <img
                   src="/img/developer.jpg"
@@ -193,7 +205,12 @@
             </div>
           </div>
           <div class="w-full px-4 flex flex-wrap justify-center">
-            <div class="mb-12 p-4 mt-5 md:w-1/2">
+            <div
+              class="mb-12 p-4 mt-5 md:w-1/2"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <div class="border border-white rounded-lg mx-2">
                 <img
                   src="../img/html.png"
@@ -204,7 +221,12 @@
                 />
               </div>
             </div>
-            <div class="mb-12 p-4 mt-5 md:w-1/2">
+            <div
+              class="mb-12 p-4 mt-5 md:w-1/2"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <div class="border border-white rounded-lg mx-2">
                 <img
                   src="../img/tailwindcss.png"
@@ -215,7 +237,12 @@
                 />
               </div>
             </div>
-            <div class="mb-12 p-4 mt-5 md:w-1/2">
+            <div
+              class="mb-12 p-4 mt-5 md:w-1/2"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <div class="border border-white rounded-lg mx-2">
                 <img
                   src="../img/javascript.png"
@@ -226,7 +253,12 @@
                 />
               </div>
             </div>
-            <div class="mb-12 p-4 mt-5 md:w-1/2">
+            <div
+              class="mb-12 p-4 mt-5 md:w-1/2"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <div class="border border-white rounded-lg mx-2">
                 <img
                   src="../img/git.png"
@@ -254,7 +286,12 @@
             </div>
           </div>
           <div class="w-full px-4 flex flex-wrap justify-center">
-            <div class="mb-12 p-4 mt-5 md:w-1/2">
+            <div
+              class="mb-12 p-4 mt-5 md:w-1/2"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <div class="border border-white rounded-lg mx-2">
                 <img
                   src="../img/windows.png"
@@ -265,7 +302,12 @@
                 />
               </div>
             </div>
-            <div class="mb-12 p-4 mt-5 md:w-1/2">
+            <div
+              class="mb-12 p-4 mt-5 md:w-1/2"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <div class="border border-white rounded-lg mx-2">
                 <img
                   src="../img/vscode.png"
@@ -276,7 +318,12 @@
                 />
               </div>
             </div>
-            <div class="mb-12 p-4 mt-5 md:w-1/2">
+            <div
+              class="mb-12 p-4 mt-5 md:w-1/2"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <div class="border border-white rounded-lg mx-2">
                 <img
                   src="../img/postman.png"
@@ -353,6 +400,14 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script src="../dist/script.js"></script>
   </body>

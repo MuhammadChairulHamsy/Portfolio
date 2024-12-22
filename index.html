@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamsy | Portfolio</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="dist/output.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="bg-gradient-to-r from-slate-900 to-slate-700">
     <!-- Header Start -->
@@ -18,7 +21,6 @@
               href="#home"
               class="font-bold text-2xl text-primary block py-6 m lg:text-3xl"
               >Syy<span class="text-secondary">Code</span>
-              <!-- <img src="/img/star.svg" alt="star" class="w-20 h-20" /> -->
             </a>
           </div>
           <!-- Hamburger Menu -->
@@ -47,11 +49,12 @@
                 <li class="group">
                   <a
                     href="#home"
-                    class="text-lg text-primary py-2 mx-8 flex group-hover:text-white transition duration-300 ease-in-out"
-                    ><img
+                    class="text-lg text-primary py-2 mx-8 flex group-hover:text-white group-hover: transition duration-300 ease-in-out"
+                  >
+                    <img
                       src="img/home.png"
                       alt="Home"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Home</a
                   >
                 </li>
@@ -62,7 +65,7 @@
                     ><img
                       src="img/about me.png"
                       alt="About"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />About</a
                   >
                 </li>
@@ -73,7 +76,7 @@
                     ><img
                       src="img/projects.png"
                       alt="Projects"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Projects</a
                   >
                 </li>
@@ -84,7 +87,7 @@
                     ><img
                       src="img/resume.png"
                       alt="Resume"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Resume</a
                   >
                 </li>
@@ -95,7 +98,7 @@
                     ><img
                       src="img/blogs.png"
                       alt="Blogs"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Blogs</a
                   >
                 </li>
@@ -106,7 +109,7 @@
                     ><img
                       src="img/contact.png"
                       alt="Contact"
-                      class="w-5 h-5 mt-1 mx-2"
+                      class="w-5 h-5 mt-1 mx-2 group-hover:bg-white transition duration-300 ease-in-out"
                     />Contact</a
                   >
                 </li>
@@ -127,12 +130,10 @@
             <div class="w-full self-center px-4 lg:w-1/2">
               <h1 class="text-base font-semibold text-primary md:text-xl">
                 Hello everyone! 👋🏻 I am
-                <span
-                  class="block font-bold text-4xl mt-1 lg:text-5xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent"
-                >
-                  Muhammad Chairul Hamsy
-                </span>
               </h1>
+              <p
+                class="text-gsap block font-bold text-4xl mt-1 lg:text-4xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent"
+              ></p>
               <h2 class="font-medium text-slate-500 text-lg mb-6 lg:text-2xl">
                 Frontend Developer
               </h2>
@@ -142,12 +143,12 @@
                 at, nice to meet you i would like to welcome your with my
                 personal portfolio
               </p>
-              
-                <button
-                  class="mr-5 bg-secondary text-white rounded-xl shadow-lg py-2.5 px-2 hover:bg-blue-600 transition duration-300 ease-in-out"
-                >
-                  Get In Touch
-                </button>
+
+              <button
+                class="mr-5 bg-secondary text-slate-100 rounded-xl shadow-lg py-2.5 px-2 hover:bg-blue-600 hover:text-slate-300 transition duration-300 ease-in-out"
+              >
+                Get In Touch
+              </button>
             </div>
             <div class="w-full self-end px-4 lg:w-1/2">
               <div class="mt-5 lg:mt-3 lg:right-0">
@@ -168,7 +169,12 @@
         <div class="container">
           <div class="flex flex-wrap lg:items-center">
             <!-- Bagian Teks -->
-            <div class="w-full px-4 mb-10 lg:w-1/2">
+            <div
+              class="w-full px-4 mb-10 lg:w-1/2"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <h4
                 class="text-primary text-4xl mb-5 uppercase text-center font-bold lg:text-center"
               >
@@ -205,7 +211,12 @@
             </div>
 
             <div class="w-full self-end px-4 lg:w-1/2">
-              <div class="mt-5 sm:mt-1 lg:mb-32 lg:mt-20">
+              <div
+                class="mt-5 sm:mt-1 lg:mb-32 lg:mt-20"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <img
                   src="/img/profil.jpeg"
                   alt="Ilustrations2"
@@ -303,15 +314,6 @@
               class="bg-slate-200 rounded-full p-2"
             />
           </a>
-          <!-- <a href="https://www.facebook.com/profile.php?id=100012659804645&locale=id_ID" target="_blank">
-            <img
-              src="/img/facebook.svg"
-              width="30"
-              height="30"
-              alt="facebook"
-              class= "bg-slate-200 rounded-full p-2"
-            />
-          </a> -->
           <a href="https://www.tiktok.com/@hamdevs?lang=id-ID" target="_blank">
             <img
               src="/img/tik-tok.svg"
@@ -325,6 +327,17 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <!-- <script>
+      
+    </script> -->
+
     <script src="dist/script.js"></script>
   </body>
 </html>

@@ -18,3 +18,16 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("hamburger-active");
   navMenu.classList.toggle("hidden");
 });
+
+// AOS
+AOS.init({
+  once: true,
+});
+
+// GSAP
+gsap.registerPlugin(TextPlugin);
+gsap.to(".text-gsap", {
+  duration: 5,
+  delay: 1,
+  text: "Muhammad Chairul Hamsy",
+});
